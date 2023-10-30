@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/TwitterFavIcon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/TwitterFavIcon.png" />
+    <link rel="stylesheet" href="/styles/Login_style.css" />
     <title>Twitter</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="login-form">
+      <img
+        src="/assets/TwitterFavIcon.png"
+        alt="twitter icon"
+        loading="lazy"
+        width="70px"
+        class="logo"
+      />
+      <h2 class="main-heading">Sign in to twitter</h2>
+      <button>
+        <img
+          src="/assets/google icon.png"
+          alt="google logo"
+          loading="lazy"
+          width="25px"
+        />Sign in with google
+      </button>
+      <button>
+        <img
+          src="/assets/apple icon.png"
+          alt="apple logo"
+          loading="lazy"
+          width="50px"
+        />Sign in with apple
+      </button>
+      <hr />
+      <span class="or"></span>
+      <form method="post">
+        <input type="text" placeholder="Enter email, phone or username" />
+        <button class="special" id="myButton">Next</button>
+      </form>
+      <button class="last">Forget password</button>
+      <p>Don't Have an account? <a href="#">sign up</a></p>
+      <script src="/script/app.js"></script>
+    </div>
+  </body>
 </html>
