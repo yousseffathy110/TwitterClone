@@ -4,9 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/TwitterFavIcon.png" />
+    <link rel="stylesheet" href="/styles/SignUp.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Twitter / Sign Up</title>
   </head>
   <body>
-    <p>hi from sign up !!</p>
+    <div class="container">
+      <img
+        src="/assets/TwitterFavIcon.png"
+        alt="twitter logo"
+        loading="lazy"
+        width="70px"
+        class="icon"
+      />
+      <h2 class="heading">sign up to twitter</h2>
+      <form action="" method="post" class="form-data">
+        <input
+          type="text"
+          class="special-input"
+          placeholder="yousef "
+          required
+        />
+        <i class="fa-regular fa-address-card" id="fname-icon"></i>
+        <!-- <span class="float-one">name</span> -->
+
+        <input
+          type="text"
+          placeholder="Fathy"
+          class="special-input2"
+          required
+        />
+        <i class="fa-regular fa-address-card" id="lname-icon"></i>
+
+        <input
+          type="mail"
+          required
+          placeholder="mm1254@bnc.com"
+          class="special-input3"
+        />
+        <i class="fa-regular fa-envelope" id="mail-icon"></i>
+
+        <input
+          type="tel"
+          min="11"
+          max="11"
+          required
+          placeholder="01012345678"
+        />
+        <i class="fa-solid fa-phone" id="phone-icon"></i>
+
+        <input
+          type="password"
+          required
+          min="8"
+          max="22"
+          placeholder="*************"
+        />
+        <i class="fa-solid fa-lock" id="password-icon"></i>
+        <br /><br /><br />
+      </form>
+      <a href="home-page.html" class="redirect">sign up</a>
+      <br /><br /><br />
+      <p>Already have an account ? <a href="loginPage.html">Sign in</a></p>
+    </div>
   </body>
 </html>
