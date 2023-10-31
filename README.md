@@ -1,3 +1,2 @@
-# TwitterClone
-## this project is a Twitter clone using html, css and js .
-## it's a Pretty much similar version to the real one .
+# twitter-clone
+## This project is a Twitter clone built using HTML and CSS. It aims to replicate the basic functionality and appearance of the Twitter social media platform. Users can view tweets, post their own tweets, and interact with tweets by liking and retweeting them.
