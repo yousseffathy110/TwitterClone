@@ -72,7 +72,7 @@ button:hover {
   height: 10px;
   padding: 4px;
   position: absolute;
-  bottom: 283px;
+  bottom: 269px;
   left: 45%;
   background-color: white;
 }
@@ -88,7 +88,7 @@ button:hover {
   width: 100%;
   border: 1px solid #999;
 }
-.special {
+/* .special {
   background-color: #121212;
   color: white;
   text-transform: capitalize;
@@ -98,13 +98,37 @@ button:hover {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+} */
+.login-form form .special{
+  background-color: #121212;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  display: inline-block;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  margin-top: 10px;
 }
-.special:hover {
+.login-form form .special:hover {
   background-color: transparent;
   color: black;
   border: 1px solid #333;
-  font-weight: 500;
-  font-size: 1.2rem;
+  /* font-weight: 500;
+  font-size: 1.2rem; */
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 .last {
   background-color: transparent;
