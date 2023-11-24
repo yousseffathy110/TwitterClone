@@ -181,7 +181,7 @@ main {
   border-left: 1px solid #333;
   border-right: 1px solid #333;
 }
-.container .feed .bar{
+.container .feed .bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,12 +196,12 @@ main {
   text-transform: uppercase;
   background-color: black;
 }
-.f-line{
+.f-line {
   display: flex;
   align-items: center;
   padding: 0 10px;
 }
-.f-line a .personal-img{
+.f-line a .personal-img {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -210,7 +210,7 @@ main {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.f-line .tweet-content{
+.f-line .tweet-content {
   background-color: black;
   border: transparent;
   font-size: 1.5rem;
@@ -224,7 +224,7 @@ main {
   color: rgb(210, 203, 203);
   width: 70%;
 }
-.f-line .tweet-content:hover{
+.f-line .tweet-content:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -232,7 +232,7 @@ main {
   -o-transform: scale(1.1);
   cursor: pointer;
 }
-.s-line{
+.s-line {
   display: flex;
   color: white;
   justify-content: space-between;
@@ -240,13 +240,13 @@ main {
   padding: 5px 10px;
   width: 100%;
 }
-.s-line .icons{
+.s-line .icons {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   margin-left: 78px;
 }
-.s-line .icons i{
+.s-line .icons i {
   color: rgb(39, 99, 123);
   font-size: 25px;
   transition: 0.7s;
@@ -256,14 +256,14 @@ main {
   -o-transition: 0.7s;
   cursor: pointer;
 }
-.s-line .icons i:hover{
+.s-line .icons i:hover {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
 }
-.s-line .NewTweet-Btn{
+.s-line .NewTweet-Btn {
   text-transform: uppercase;
   background-color: rgb(35, 156, 204);
   border-radius: 999px;
@@ -283,4 +283,100 @@ main {
   -ms-transition: 0.8s;
   -o-transition: 0.8s;
   font-weight: 700;
+}
+.feed-tweets {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #333;
+  padding: 10px;
+  min-height: 100px;
+  width: 100%;
+  cursor: pointer;
+}
+.feed-tweets i {
+  font-size: 25px;
+  color: #4f4d4d;
+}
+.tweet-details {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+}
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.user-details a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(237, 234, 234);
+}
+.user-details a span {
+  color: #969393;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.user-details i {
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.user-details i:hover {
+  color: white;
+}
+.tweet-content {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+}
+.tweet-engagments {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0 0;
+}
+.tweet-engagments i {
+  font-size: 2.3rem;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.tweet-engagments i:nth-child(1):hover {
+  color: rgb(49, 112, 212);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.tweet-engagments i:nth-child(2):hover {
+  color: rgb(25, 173, 25);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.tweet-engagments i:nth-child(3):hover {
+  color: rgb(255, 39, 39);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.tweet-engagments i:nth-child(4):hover {
+  color: white;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
