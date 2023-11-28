@@ -145,4 +145,12 @@ p a {
   color: rgb(12, 155, 216);
   text-decoration: none;
   text-transform: capitalize;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.hover-sign:hover{
+  color: rgb(1, 105, 150);
 }
