@@ -41,6 +41,7 @@
           class="special-input"
           placeholder="yousef "
           required
+          id="userInput"
         />
         <i class="fa-regular fa-address-card" id="fname-icon"></i>
         <!-- <span class="float-one">name</span> -->
@@ -50,6 +51,7 @@
           placeholder="Fathy"
           class="special-input2"
           required
+          id="userInput"
         />
         <i class="fa-regular fa-address-card" id="lname-icon"></i>
 
@@ -58,6 +60,7 @@
           required
           placeholder="mm1254@bnc.com"
           class="special-input3"
+          id="userInput"
         />
         <i class="fa-regular fa-envelope" id="mail-icon"></i>
 
@@ -66,6 +69,7 @@
           min="11"
           max="11"
           required
+          id="userInput"
           placeholder="01012345678"
         />
         <i class="fa-solid fa-phone" id="phone-icon"></i>
@@ -75,14 +79,17 @@
           required
           min="8"
           max="22"
+          id="userInput"
           placeholder="*************"
         />
         <i class="fa-solid fa-lock" id="password-icon"></i>
         <br /><br />
+        <button class="redirect" onclick="validiate()">sign up</button>
       </form>
-      <a href="home-page.html" class="redirect">sign up</a>
+      <!-- <a href="home-page.html" class="redirect">sign up</a> -->
       <br /><br /><br />
       <p>Already have an account ? <a href="loginPage.html">Sign in</a></p>
     </div>
+    <script src="/script/app.js"></script>
   </body>
 </html>
