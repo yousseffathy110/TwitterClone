@@ -10,9 +10,9 @@ function openNewPage() {
 
   //   alert(`Hello ${input} !`);
 }
-
-function validiate() {
+function validate() {
   let Sinput = document.getElementById("userInput").value;
+
   if (Sinput == "") {
     alert("Please fill the input field before continuing.");
   } else {
